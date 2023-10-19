@@ -9,7 +9,7 @@
 <body class="p-[1em]">
     <header>
         <nav class="flex justify-between mb-[3em]">
-            <img src="assets/logo.png" class="flex items-center" />
+            <img src="assets/logo.png" />
 
             <!--Menu burguer pour mobile-->
             <div class="grid place-content-center lg:hidden sm:hidden">
@@ -81,15 +81,97 @@
         </nav>
     </header>
     <main>
-        <div>
-            <h1 class="font-bold text-3xl"> The easiest way to manage projects</h1>
-            <p class="my-[2em]">From the small stuff to the big picture, organizes the work so teams know what to do,
-                why it matters, and how to get it done.</p>
-            <div class="flex justify-between">
-                <button class="bg-orange-500 text-white">Get Started</button>
-                <button class="text-orange-600">Watch video</button>
+        <!-- section hero du mobile and desktop-->
+        <div class="lg:hidden">
+            <div class="">
+                <h1 class="font-bold text-3xl"> The easiest way to manage projects</h1>
+                <p class="my-[2em]">From the small stuff to the big picture, organizes the work so teams know what to
+                    do,
+                    why it matters, and how to get it done.
+                </p>
+                <div class="flex justify-between w-[20em]">
+                    <button class="bg-red-500 text-white p-[.7em] rounded-[.3em] font-bold">Get Started</button>
+                    <button class="text-orange-600 font-bold">Watch video</button>
+                </div>
             </div>
+
+
+            <div class="my-[4em] flex justify-center">
+                <img src="assets/Mobile.png" />
+            </div>
+            <div class="bg-gray-500 w-[90%] h-[.1em] items-center"></div>
+            <!-- mobile -->
+            <div class="md:hidden lg:hidden">
+                <div class="mx-[2em]">
+                    <div class="flex justify-between my-[2em] items-center">
+                        <img src="assets/airbnb.png" />
+                        <img src="assets/hubspot.png" />
+                    </div>
+                    <div class="flex justify-between my-[2em] items-center">
+                        <img src="assets/google.png" />
+                        <img src="assets/microsoft.png" />
+                    </div>
+                    <div class="flex justify-between my-[2em] items-center">
+                        <img src="assets/walmart.png" />
+                        <img src="assets/fedex.png" />
+                    </div>
+                </div>
+            </div>
+            <!-- End mobile -->
+
+            <!-- Tablette -->
+            <div class="hidden md:block">
+                <div class="flex justify-between my-[2em] justify-center">
+                    <img src="assets/airbnb.png" />
+                    <img src="assets/hubspot.png" />
+                    <img src="assets/google.png" />
+                    <img src="assets/microsoft.png" />
+                </div>
+                <div class="flex gap-10 justify-center"> 
+                    <img src="assets/walmart.png" />
+                    <img src="assets/fedex.png" />
+                </div>
+            </div>
+
+            <div class="bg-gray-500 w-[90%] h-[.1em] items-center"></div>
+
         </div>
+        <!-- End section hero mobile and tablette -->
+
+        <!-- Section hero desktop -->
+        <div class="hidden lg:block">
+
+            <div class="flex justify-between mx-[3em]">
+                <div class="mt-[5em]">
+                    <h1 class="font-bold text-3xl"> The easiest way to manage projects</h1>
+                    <p class="my-[1em]">From the small stuff to the big picture, organizes the work so teams know what
+                        to
+                        do,
+                        why it matters, and how to get it done.
+                    </p>
+                    <div class="flex justify-between w-[15em]">
+                        <button class="bg-red-500 text-white p-[.7em] rounded-[.3em] font-bold">Get Started</button>
+                        <button class="text-orange-600 font-bold">Watch video</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/Mobile.png" />
+                </div>
+            </div>
+            <div class="bg-gray-500 w-[90%] h-[.1em]"></div>
+            <div class="flex justify-between mx-[4em] my-[2em]">
+                <img src="assets/airbnb.png" />
+                <img src="assets/hubspot.png" />
+                <img src="assets/google.png" />
+                <img src="assets/microsoft.png" />
+                <img src="assets/walmart.png" />
+                <img src="assets/fedex.png" />
+            </div>
+            <div class="bg-gray-500 w-[90%] h-[.1em] items-center"></div>
+        </div>
+
+        <!-- End section hero tablette -->
+
     </main>
     <footer></footer>
 
