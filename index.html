@@ -9,7 +9,7 @@
 <body class="p-[1em]">
     <header>
         <nav class="flex justify-between mb-[3em]">
-            <img src="assets/logo.png" width="100" class="flex items-center"/>
+            <img src="assets/logo.png" width="150" class="flex items-center" />
 
             <!--Menu burguer pour mobile-->
             <div class="grid place-content-center lg:hidden sm:hidden">
@@ -21,8 +21,21 @@
 
             <!-- Menu burgueur pour tablette -->
             <div class="hidden md:flex md:justify-end md:gap-5 lg:hidden ">
-                <button class="bg-black p-[.5em] rounded-[5px] text-white items-center">Google Play Store</button>
-                <button class="bg-black p-[.5em] rounded-[5px] text-white items-center mr-[.5em]">App Store</button>
+                <button class="bg-black p-[.5em] rounded-[5px] text-white items-center font-bold flex">
+                    <img src="assets/playstore.png" width="30" />
+                    <div>
+                        <p class="text-sm">GET IT ON</p>
+                        <p>Google Play Store</p>
+                    </div>
+                </button>
+                <button
+                    class="bg-black p-[.5em] rounded-[5px] text-white items-center mr-[.5em] font-bold flex gap-[.3em]">
+                    <img src="assets/logo-apple.png" width="30" />
+                    <div>
+                        <p class="text-sm">DOWNLOAD ON THE</p>
+                        <p>App Store</p>
+                    </div>
+                </button>
                 <div class="grid place-content-center items-center">
                     <div
                         class="w-12 h-1 bg-black rounded-full before:content-[''] before:absolute before:w-12 before:h-1 before:bg-black before:rounded-full before:-translate-y-3
@@ -48,8 +61,21 @@
                     </a>
                 </ul>
                 <div class="flex gap-10 items-center">
-                    <button class="bg-black p-[.5em] rounded-[5px] text-white">Google Play Store</button>
-                    <button class="bg-black p-[.5em] rounded-[5px] text-white">App Store</button>
+                    <button class="bg-black p-[.5em] rounded-[5px] text-white items-center font-bold flex">
+                        <img src="assets/playstore.png" width="30" />
+                        <div>
+                            <p class="text-sm">GET IT ON</p>
+                            <p>Google Play Store</p>
+                        </div>
+                    </button>
+                    <button
+                        class="bg-black p-[.5em] rounded-[5px] text-white items-center mr-[.5em] font-bold flex gap-[.3em]">
+                        <img src="assets/logo-apple.png" width="30" />
+                        <div>
+                            <p class="text-sm">DOWNLOAD ON THE</p>
+                            <p>App Store</p>
+                        </div>
+                    </button>
                 </div>
             </div>
         </nav>
@@ -59,6 +85,10 @@
             <h1 class="font-bold text-3xl"> The easiest way to manage projects</h1>
             <p class="my-[2em]">From the small stuff to the big picture, organizes the work so teams know what to do,
                 why it matters, and how to get it done.</p>
+            <div class="flex justify-between">
+                <button class="bg-orange-500 text-white">Get Started</button>
+                <button class="text-orange-600">Watch video</button>
+            </div>
         </div>
     </main>
     <footer></footer>
